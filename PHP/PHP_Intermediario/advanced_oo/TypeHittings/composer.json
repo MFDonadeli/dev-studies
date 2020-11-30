@@ -1,0 +1,15 @@
+{
+    "name": "mfdigital/advanced_oo",
+    "authors": [
+        {
+            "name": "mfdonadeli",
+            "email": "mfdonadeli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHP_Middle\\" : "src"
+        }
+    },
+    "require": {}
+}

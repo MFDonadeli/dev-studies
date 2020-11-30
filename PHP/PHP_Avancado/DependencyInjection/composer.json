@@ -1,0 +1,11 @@
+{
+    "require": {
+        "pimple/pimple": "^3.3",
+        "laminas/laminas-servicemanager": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MFDigital\\Di\\": "autoresolver/src"
+        }
+    }
+}

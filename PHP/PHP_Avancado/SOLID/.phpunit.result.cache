@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":152:{a:2:{s:7:"defects";a:1:{s:40:"Php_Adv\Solid\HtmlTest::testSimpleSample";i:4;}s:5:"times";a:1:{s:40:"Php_Adv\Solid\HtmlTest::testSimpleSample";d:0.007;}}}

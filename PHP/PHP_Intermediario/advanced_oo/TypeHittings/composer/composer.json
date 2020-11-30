@@ -1,0 +1,16 @@
+{
+    "name": "mfdigital/php-intermediario",
+    "description": "Fixing my concepts on PHP. This is the time of composer",
+    "authors": [
+        {
+            "name": "mfdonadeli",
+            "email": "mfdonadeli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Course\\Composer\\": "src"
+        }
+    },
+    "require": {}
+}

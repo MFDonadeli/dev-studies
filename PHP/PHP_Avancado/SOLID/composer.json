@@ -1,0 +1,17 @@
+{
+    "name": "mfdigital/solid",
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "mfdonadeli",
+            "email": "mfdonadeli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Php_Adv\\Solid\\": "src"
+        }
+    }
+}
