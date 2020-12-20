@@ -47,6 +47,7 @@ class Intercepter {
 
     public function __get($prop)
     {
+        echo "__get" . $prop;
         $method = 'get' . ucfirst($prop);
         
         if(method_exists($this, $method))
@@ -71,4 +72,7 @@ echo "Thanks to __get: " . $aaa->name . PHP_EOL;
 echo "Thanks to __toString: " . $aaa . PHP_EOL;
 
 echo "Thanks to Trait: " . $aaa->countChars($aaa->name);
+
+
+echo $aaa->name1;
 

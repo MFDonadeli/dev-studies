@@ -29,7 +29,7 @@ docker exec roda um comando dentro do docker que está rodando
         docker exec nginx ls roda o comando somente
         docker exec -it nginx bash roda o comando com entrada e tty ativos
 docker volume create <volume>: cria um volume dentro de uma pasta no meu computador
-docker build <caminho> roda o docker file
+docker build -t <nome_usuario>/<nome_docker> <caminho_do_arquivo> gera e executa o DockerFile
 
 Dockerfile
 
@@ -47,4 +47,18 @@ ENTRYPOINT [<comando>, <continuacao_comando>] comando fixo
 
 CMD [<comando>,<continuacao_comando>], essa linha vai ser substituida sempre por um comando se passada na hora da execução (comando variável):
     docker run --rm <container> echo "oi", ele mostra oi ao invés de CMD['echo', 'Hello World']
+
+To run an app without having the app
+
+docker run --rm -it -v $(pwd)/:/usr/src/app -p 3000:3000 node:15 bash
+
+This will run the image node:15 sharing my current dir as /usr/src/app from the image, then we can run any technology that is inside a image without having it in my computer.
+
+If I want to share all the sources that I generate I only have to create a docker file like NoInstall.Dockerfile
+
+## Images optimization
+
+When working on development mode we have an image that has lots of resources installed
+
+### Multi stage building
 
