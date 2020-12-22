@@ -15,11 +15,11 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 #install Laravel
 RUN php composer.phar create-project --prefer-dist laravel/laravel laravel
 
-#run Laravel server
-ENTRYPOINT ["php", "laravel/artisan", "serve"]
+#run Laravel server - i don't know why is not configured
+#ENTRYPOINT ["php", "laravel/artisan", "serve"]
 
-#to be able to redirect to my port
-CMD ["--host=0.0.0.0"]
+#to be able to redirect to my port - i don't know why is not configured
+#CMD ["--host=0.0.0.0"]
 
 #run like this: docker run --rm -d --name laravel -p 8000:8000 wesleywillians/laravel
 #to change to other host and port: docker run --rm -d --name laravel -p 8001:8001 wesleywillians/laravel --host=0.0.0.0 --port=8001
@@ -32,12 +32,13 @@ WORKDIR /var/www
 #remove html folder
 RUN rm -rf /var/www/html
 
-#copy from stage builder (line 1) laravel dir to current directory
+#copy from stage "builder" (line 1) laravel dir to current directory
 COPY --from=builder /var/www/laravel .
 
-RUN chown -R www-data:www-data /var/www
 #create a symbolic link to public be known as html
 RUN ln -s public html
+RUN chown -R www-data:www-data /var/www
+
 
 EXPOSE 9000
 
