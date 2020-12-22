@@ -21,5 +21,5 @@ ENTRYPOINT ["php", "laravel/artisan", "serve"]
 #to be able to redirect to my port
 CMD ["--host=0.0.0.0"]
 
-#run like this: docker run --rm -d --name laravel -p 8000:8000 wesleywillians/laravel
+#run like this: docker run --rm -d --name laravel -p 80:8000 wesleywillians/laravel
 #to change to other host and port: docker run --rm -d --name laravel -p 8001:8001 wesleywillians/laravel --host=0.0.0.0 --port=8001
