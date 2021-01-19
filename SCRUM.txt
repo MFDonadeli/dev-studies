@@ -1,0 +1,31 @@
+Scrum 
+
+3 Papeis:
+
+Scrum Master: Cuida de pessoas (time, stakeholders e relação entre elas), processos (todo fluxo e tudo o que vem do exterior) e ferramentas (facilitador para que o time tenhas todas as ferramentas)
+Product Owner (PO): Cuida do business, do produto final. É influenciada pelos stake holders para trazer o business para dentro do time, fazendo que o business vire um produto. Traz objetivos para a sprint planning. O que vai ser feito.
+Desenvolvedores: traduz a necessidade do negócio para o produto final
+
+3 Artefatos
+
+Product Backlog: Todo requerimento que existe e que ainda não foi desenvolvido (1 unica fonte). O goal do projeto. Pode ser alterado, mas tem que ser com a participação do PO.
+Sprint Backlog: Todo requerimento e história que o time trouxe para a sprint para desenvolver no período do tempo
+Incremento: Resultado de um período que o time trabalhou para desenvolver o produto. É o resultado final integrado com todas as outras entregas anteriores. 
+
+4 Eventos
+
+Sprint planning: Onde o time cria um plano (com um objetivo) para ser entregar o incremento. Até 8 horas (para 1 semana até 1 mês, vai gerar o backlog). Aqui vai ser definido a sprint backlog e cria um plano de ação para atingir a sprint goal.
+Daily scrum: Acontece diariamente e o time sincroniza onde estão e para onde estar indo e se adaptam se for o caso. Os desenvolvedores alinham. (15 minutos). Vai ser falado sobre bloqueios e riscos. Time tem que ser transparente. O time de desenvolvedores inspecionam onde estão em relação ao Sprint Goal.
+Sprint review: No fim da sprint, vamos colher feedback dos stakeholders para melhorar para a proxima. Interação entre os desenvolvedores e os stakeholders. O tempo é proporcional ao tempo da sprint. O PO vai pegar o feedback de todo mundo e vai atualizar o sprint backlog.
+Sprint retrospective: Melhor momento para encontrar melhorias, trazer para proxima sprint e ficar mais eficiente. O time para para refletir como pode melhorar para a proxima sprint. DEV e PO trazem sugestões de melhorias. SM vai trazer sobre pessoas e ferramentas. No maximo 3 horas para sprints de 1 mes. Após aqui tem que iniciar já a sprint planning.
+
+Sprint: container para guardar todos esses eventos, começa com a planning e termina com a retrospectiva. O objetivo é entregar software funcionando.
+
+5 Valores: Governam o scrum (mindset)
+
+Coragem: Para fazer a coisa certa em problemas dificeis
+Foco: Foco para o time e a organização, foco na sprint, nada além disso. Os objetivos que assumimos juntos, entregamos juntos
+Comprometimento: O scrum master faz o time se comprometer com os objetivos.
+Respeito: Os membros respeitam uns aos outros
+Abertura: Os membros estão abertos aos desafios e a execução
+

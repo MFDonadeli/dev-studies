@@ -1,0 +1,3 @@
+MYSQL
+
+mysql_install_db.exe --datadir=c:\xampp1\mysql\data #Cria os bancos de dados a partir de um diretorio vazio

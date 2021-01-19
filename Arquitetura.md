@@ -71,6 +71,14 @@ Pode ser síncrona ou assíncrona. A comunicação melhor é com a ajuda de mens
 
 Tenho diversos dispositivos na Internet e eles fazem requisições. Porém no Browser as possibilidades são maiores para exibir mais informações. Cada front-end (dispositivo) vai requisitar um tanto de informação, então cada requisição só vai trazer o necessário para o dispositivo.
 
+### WebServices vs API
 
+Webservice: Um sistema que permite que outro sistema se conecte com ele, através da web (pelo menos um na web). Existem vários padrões SOAP e REST.
+
+- Comunicação entre aplicações
+- Interação entre diferentes plataformas
+- Aplicação como serviço e independentes
+
+Webservice x API: Webservice é um subconjunto de API, API não necessariamente está na WEB.
 
 
