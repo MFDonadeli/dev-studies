@@ -30,6 +30,7 @@ docker exec roda um comando dentro do docker que está rodando
         docker exec -it nginx bash roda o comando com entrada e tty ativos
 docker volume create <volume>: cria um volume dentro de uma pasta no meu computador
 docker build -t <nome_usuario>/<nome_docker> <caminho_do_arquivo> gera e executa o DockerFile
+docker build -f <arquivo.dockerfile> . gera o arquivo Dockerfile
 docker attach <name> connect to a running docker image
 docker exec <name> connect to a running docker image
 docker run -dit --name <image_name> --network <networ_name> bash: run a image and connects to a network, in this case it runs bash and do not enter in the image

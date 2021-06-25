@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue2webpack</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ título }}</h1>
+      <p>{{ bool }}</p>
+      <p>{{ numeroInteiro }}</p>
+      <p>{{ numeroFloat }}</p>
+      <p>{{ objeto.name }}</p>
+      <h1 v-bind:id="numeroInteiro">{{ título }}</h1>
+      <a v-bind:href="link">Home</a>
+
+      <ul>
+        <li v-for="x in 10">{{ x }}</li>
+      </ul>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
