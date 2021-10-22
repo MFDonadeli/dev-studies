@@ -1,0 +1,8 @@
+name = "dummies-cfw-redirect-table-lambda"
+type = "javascript"
+
+account_id = "ec583e2b51b7b9ef038415402cf145a2"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-10-13"

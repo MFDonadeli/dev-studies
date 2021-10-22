@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "hxwrcuXi0dn5luGTTngYoJr6OAulChBPnYXgk3N+yI3MkTpN0mBAezsBlDDimeq7XHcH1TypYbbrW2iFUZ9Qvw==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\api-rest\\dotnet1\\dotNetSamp1\\src\\dotNetSamp1\\dotNetSamp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mgoncalez\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\mgoncalez\\.nuget\\packages\\amazon.lambda.core\\2.0.0\\amazon.lambda.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\mgoncalez\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\mgoncalez\\.nuget\\packages\\awssdk.core\\3.7.3.22\\awssdk.core.3.7.3.22.nupkg.sha512",
+    "C:\\Users\\mgoncalez\\.nuget\\packages\\awssdk.s3\\3.7.3.15\\awssdk.s3.3.7.3.15.nupkg.sha512"
+  ],
+  "logs": []
+}

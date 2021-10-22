@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "dummies-cfw-redirect-table",
+  "version": "1.0.0",
+  "description": "CloudFlare Workers project that redirects former Dummies URLs to new Dummies system equivalent URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "mgoncalez <mgoncalez@wiley.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
